@@ -1,0 +1,119 @@
+page{
+  background-color: #eaeaea;
+  color: #666;
+}
+/* 用户头像部分 */
+.user_info_wrap{
+  height: 45vh;
+  background-color: var(--themeColor);
+  position: relative;
+  overflow: hidden;
+}
+.user_bg{
+  width: 100vw;
+  height: 45vh;
+  filter: blur(10rpx);
+  transform: scale(1.1);
+}
+.user_info{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #fff;
+  text-align: center;
+}
+.user_icon{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.user_btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: greenyellow;
+  border: 1px solid greenyellow;
+  border-radius: 10rpx;
+  padding: 10rpx 20rpx;
+  font-size: 34rpx;
+}
+
+/* 内容部分 */
+.user_content{
+  position: relative;
+}
+.user_main{
+  position: absolute;
+  width: 95%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -40rpx;
+  padding-bottom: 40rpx;
+}
+
+/* 历史足迹 */
+.history_wrap{
+  background-color: #fff;
+  display: flex;
+  border-radius: 10rpx;
+}
+.history_wrap navigator{
+  flex: 1;
+  text-align: center;
+  padding: 10rpx 0;
+}
+.history_wrap .his_num{
+  color: var(--themeColor);
+  padding-bottom: 8rpx;
+}
+
+/* 我的订单 */
+.orders_wrap{
+  background-color: #fff;
+  margin-top: 20rpx;
+  border-radius: 10rpx;
+}
+.orders_title{
+  padding: 20rpx;
+  border-bottom: 1px solid #ddd;
+}
+.orders_content{
+  display: flex;
+}
+.orders_content navigator{
+  flex: 1;
+  text-align: center;
+  padding: 10rpx 0;
+}
+.orders_content .iconfont{
+  color: var(--themeColor);
+  padding-bottom: 8rpx;
+  font-size: 44rpx;
+}
+
+/* 收货地址管理 */
+.address_wrap,
+.app_info_wrap,
+.recommend_wrap{
+  background-color: #fff;
+  margin-top: 20rpx;
+  border-radius: 10rpx;
+  padding: 20rpx;
+}
+
+/* 应用信息相关 */
+.app_info_wrap{
+  padding: 0;
+}
+.app_info_item{
+  padding: 20rpx;
+  border-bottom: 1px solid #ddd;
+}
+.app_info_item:last-child{
+  border-bottom: none;
+}
+.app_info_phone{
+  float: right;
+}

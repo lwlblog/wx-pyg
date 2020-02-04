@@ -1,0 +1,36 @@
+page{
+  background-color: #eee;
+  padding: 20rpx;
+}
+/* 搜索框 */
+.search_row{
+  height: 80rpx;
+  background-color: #fff;
+  display: flex;
+  border: 1px solid #ccc;
+}
+.search_row input{
+  flex: 1;
+  height: 100%;
+  line-height: 80rpx;
+  padding-left: 20rpx;
+}
+.search_row button{
+  width: 120rpx;
+  height: 100%;
+  font-size: 26rpx;
+  padding: 0;
+  line-height: 80rpx;
+  border-radius: 0;
+  border-left: 1px solid #ccc;
+}
+
+/* 搜索选项 */
+.search_item{
+  background-color: #fff;
+  margin-top: 6rpx;
+  padding: 10rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

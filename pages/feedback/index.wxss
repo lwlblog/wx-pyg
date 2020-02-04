@@ -1,0 +1,53 @@
+page{
+  background-color: #eee;
+  color: #666;
+}
+.fb_main{
+  padding: 20rpx;
+}
+.fb_title{
+  font-weight: bold;
+}
+.fb_tips{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.fb_tips text{
+  width: 30%;
+  text-align: center;
+  padding: 10rpx;
+  margin-top: 20rpx;
+  background-color: #fff;
+}
+.fb_content{
+  margin-top: 20rpx;
+  padding: 10rpx;
+  background-color: #fff;
+}
+.fb_tool{
+  display: flex;
+  flex-wrap: wrap;
+}
+.fb_tool button{
+  width: 94rpx;
+  height: 94rpx;
+  padding: 0;
+  margin: 10rpx;
+  line-height: 94rpx;
+  color: #ccc;
+  border: 1rpx solid #ccc;
+}
+
+/* 提交按钮 */
+.fv_btn_wrap button{
+  width: 160rpx;
+  margin-top: 10rpx;
+  padding: 20rpx;
+  float: right;
+  color: #fff;
+  background-color: var(--themeColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

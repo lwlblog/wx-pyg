@@ -1,0 +1,27 @@
+@import "./styles/iconfont.wxss";
+
+/* 清除默认样式 */
+page,view,text,swiper,swiper-item,image,navigator{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* 主题颜色，通过变量来实现 */
+page{
+  --themeColor: #eb4450;
+  font-size: 28rpx;
+  color: #333;
+}
+
+/*隐藏滚动条*/
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+/* 解决图片加载时高度太大造成闪烁问题 */
+image{
+  height: 0;
+}
